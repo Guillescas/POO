@@ -25,7 +25,7 @@ public class Controle {
       counter += 1;
       System.out.println("A função já rodou " + counter + " vezes");
     }
-
+ 
     Sinaleiro.MudaCorFixa(1); 
 
     System.out.println("");
