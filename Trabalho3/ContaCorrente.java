@@ -3,7 +3,7 @@ public class ContaCorrente {
   private double saldo;
   private Cliente cliente;
 
-  public CntaCorrente(int numero) {
+  public ContaCorrente(int numero) {
     this.numero = numero;
     this.saldo = 0;
   }
@@ -17,15 +17,15 @@ public class ContaCorrente {
   }
 
   public void depositar(double valor) {
-
+    this.saldo = valor;
   }
 
   public void retirar(double valor) {
-    
+    this.saldo = this.saldo - valor;
   }
 
-  public void verificar() {
-    
+  public double verificar() {
+    return this.saldo;
   }
 
   public void imprimir() {
