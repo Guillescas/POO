@@ -1,6 +1,7 @@
 package Especialista;
 
 import Matematica.*;
+import Trabalho2.Matematica.Retangulo;
 
 public class EngenheiroCivil {
   public exibir_dados_pessoais() {
@@ -15,7 +16,7 @@ public class EngenheiroCivil {
     public static void main(String[] args) {
       exibir_dados_pessoais();
 
-      definir_lados(4.7, 8.2);
+      Retangulo.definir_lados(4.7, 8.2);
 
       System.out.println(area());
       System.out.println(perimetro());
